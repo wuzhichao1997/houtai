@@ -9,10 +9,12 @@ Vue.use(ElementUI);
 
 ///////////////axios
 import axios from 'axios';
-axios.defaults.baseURL = "https://www.liulongbin.top:8888/api/private/v1/";
+axios.defaults.baseURL = "http://www.ysqorz.top:8888/api/private/v1/";
 Vue.prototype.$axios = axios;
 
-
+//css 的reset
+import "../src/assets/css/global.css"
+import "../src/assets/iconFont/iconfont.css"
 Vue.config.productionTip = false
 
 new Vue({
